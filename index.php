@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <form method="POST" action="">
         <label for="dni">Introduce tu DNI (sin letra):</label><br>
         <input type="text" id="dni" name="dni" maxlength="8" required><br>
-        <button type="submit">Calcular</button>
+        <button type="submit">Calcueqwlar</button>
     </form>
 
     <?php if ($dniConLetra !== null): ?>
